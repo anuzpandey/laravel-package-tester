@@ -1,0 +1,26 @@
+<?php
+
+namespace App\Providers;
+
+use Anuzpandey\LaravelNepaliDate\Mixin\NepaliDateMixin;
+use Carbon\Carbon;
+use Illuminate\Support\ServiceProvider;
+
+class AppServiceProvider extends ServiceProvider
+{
+    /**
+     * Register any application services.
+     */
+    public function register(): void
+    {
+          Carbon::mixin(new NepaliDateMixin());
+    }
+
+    /**
+     * Bootstrap any application services.
+     */
+    public function boot(): void
+    {
+        //
+    }
+}
