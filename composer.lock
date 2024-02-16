@@ -4,74 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "45d42d27a3f9ddf8b2c226e0fd5e6c60",
+    "content-hash": "58ba296bce7f3e7d621f2a8efb249505",
     "packages": [
-        {
-            "name": "anuzpandey/laravel-nepali-date",
-            "version": "dev-features/add-config-for-defaults",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/anuzpandey/laravel-nepali-date.git",
-                "reference": "aeb172e17ca479a34a1f4d5168580067e08124a2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/anuzpandey/laravel-nepali-date/zipball/aeb172e17ca479a34a1f4d5168580067e08124a2",
-                "reference": "aeb172e17ca479a34a1f4d5168580067e08124a2",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/contracts": "^10.0",
-                "php": "^8.1",
-                "spatie/laravel-package-tools": "^1.14.0"
-            },
-            "require-dev": {
-                "laravel/pint": "^1.0",
-                "nunomaduro/collision": "^7.8",
-                "orchestra/testbench": "^8.8",
-                "pestphp/pest": "^2.20",
-                "pestphp/pest-plugin-arch": "^2.0",
-                "pestphp/pest-plugin-laravel": "^2.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Anuzpandey\\LaravelNepaliDate\\LaravelNepaliDateServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Anuzpandey\\LaravelNepaliDate\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "AnuzPandey",
-                    "email": "anuzbvbmaniac123@gmail.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A Laravel Package to convert English Date (A.D.) to Nepali Date (B.S.) and vice-versa.",
-            "homepage": "https://github.com/anuzpandey/laravel-nepali-date",
-            "keywords": [
-                "anuzpandey",
-                "laravel",
-                "laravel-nepali-date",
-                "nepali-date",
-                "nepali-date-converter"
-            ],
-            "support": {
-                "issues": "https://github.com/anuzpandey/laravel-nepali-date/issues",
-                "source": "https://github.com/anuzpandey/laravel-nepali-date/tree/features/add-config-for-defaults"
-            },
-            "time": "2024-02-16T21:36:06+00:00"
-        },
         {
             "name": "brick/math",
             "version": "0.11.0",
@@ -3250,66 +3184,6 @@
                 }
             ],
             "time": "2023-11-08T05:53:05+00:00"
-        },
-        {
-            "name": "spatie/laravel-package-tools",
-            "version": "1.16.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/spatie/laravel-package-tools.git",
-                "reference": "e62eeb1fe8a8a0b2e83227a6c279c8c59f7d3a15"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-package-tools/zipball/e62eeb1fe8a8a0b2e83227a6c279c8c59f7d3a15",
-                "reference": "e62eeb1fe8a8a0b2e83227a6c279c8c59f7d3a15",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/contracts": "^9.28|^10.0|^11.0",
-                "php": "^8.0"
-            },
-            "require-dev": {
-                "mockery/mockery": "^1.5",
-                "orchestra/testbench": "^7.7|^8.0",
-                "pestphp/pest": "^1.22",
-                "phpunit/phpunit": "^9.5.24",
-                "spatie/pest-plugin-test-time": "^1.1"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Spatie\\LaravelPackageTools\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Freek Van der Herten",
-                    "email": "freek@spatie.be",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Tools for creating Laravel packages",
-            "homepage": "https://github.com/spatie/laravel-package-tools",
-            "keywords": [
-                "laravel-package-tools",
-                "spatie"
-            ],
-            "support": {
-                "issues": "https://github.com/spatie/laravel-package-tools/issues",
-                "source": "https://github.com/spatie/laravel-package-tools/tree/1.16.2"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/spatie",
-                    "type": "github"
-                }
-            ],
-            "time": "2024-01-11T08:43:00+00:00"
         },
         {
             "name": "symfony/console",
@@ -8175,9 +8049,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "anuzpandey/laravel-nepali-date": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
