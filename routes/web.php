@@ -8,10 +8,9 @@ Route::get('/', static function () {
 
     $engDate = '1996-04-22';
     $nepdate = '2053-11-18';
-    $format = 'D, jS F Y';
 
-    $nepali_result = LaravelNepaliDate::from($engDate)->toNepaliDate($format);
-    $english_result = LaravelNepaliDate::from($nepdate)->toEnglishDate($format);
+    $nepali_result = LaravelNepaliDate::from($engDate)->toNepaliDate();
+    $english_result = LaravelNepaliDate::from($nepdate)->toEnglishDate();
 
     $endTime = microtime(true);
     $executionTime = ($endTime - $startTime);
@@ -28,7 +27,7 @@ Route::get('/', static function () {
         'nepdate' => $nepdate,
         'english_result' => $english_result,
         'separator_1' => '-------------------------',
-        'format' => $format,
+        'format' => config('nepali-date.default_format'),
         'executionTime' => $executionTime . ' seconds',
         'memoryUsage' => $memoryUsage . ' MB',
     ];

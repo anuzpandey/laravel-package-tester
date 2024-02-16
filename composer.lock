@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/anuzpandey/laravel-nepali-date.git",
-                "reference": "aeb172e17ca479a34a1f4d5168580067e08124a2"
+                "reference": "29d1418aa9faf326beb88e93b922e6093246b303"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/anuzpandey/laravel-nepali-date/zipball/aeb172e17ca479a34a1f4d5168580067e08124a2",
-                "reference": "aeb172e17ca479a34a1f4d5168580067e08124a2",
+                "url": "https://api.github.com/repos/anuzpandey/laravel-nepali-date/zipball/29d1418aa9faf326beb88e93b922e6093246b303",
+                "reference": "29d1418aa9faf326beb88e93b922e6093246b303",
                 "shasum": ""
             },
             "require": {
@@ -70,7 +70,7 @@
                 "issues": "https://github.com/anuzpandey/laravel-nepali-date/issues",
                 "source": "https://github.com/anuzpandey/laravel-nepali-date/tree/features/add-config-for-defaults"
             },
-            "time": "2024-02-16T21:36:06+00:00"
+            "time": "2024-02-16T22:11:06+00:00"
         },
         {
             "name": "brick/math",
